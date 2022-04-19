@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Senr your message</title>
+</head>
+<body>
+<p>{{message}}</p>
+<form action="/miner" method="POST">
+
+    <p>blocknumber</p>
+    <input type="text" name="blocknumber">
+    <p>merkelroot</p>
+    <input type="text" name="transactions">
+   <p>previushash</p>
+    <input type="text" name="previushash">
+
+    <p>diff</p>
+    <input type="text" name="diff">
+
+    <p>
+        <input  type="submit">
+    </p>
+
+
+
+</form>
+</body>
+</html>
